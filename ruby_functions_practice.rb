@@ -88,3 +88,7 @@ def number_to_full_month_name(num)
         end
 
   end
+
+  def volume_of_cube(lengthX,lengthY,lengthZ)
+    return lenghtX * lengthY * lengthZ
+  end
