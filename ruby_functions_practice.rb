@@ -97,3 +97,7 @@ def number_to_full_month_name(num)
     answer = (4.00 / 3.000) * Math::PI * radius**3
     return answer.round(2)
   end
+
+  def fahrenheit_to_celsius(farenheit)
+    return (farenheit - 32)* 5 / 9
+  end
