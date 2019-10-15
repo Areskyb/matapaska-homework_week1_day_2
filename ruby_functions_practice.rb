@@ -90,5 +90,10 @@ def number_to_full_month_name(num)
   end
 
   def volume_of_cube(lengthX,lengthY,lengthZ)
-    return lenghtX * lengthY * lengthZ
+    return lengthX * lengthY * lengthZ
+  end
+
+  def volume_of_sphere(radius)
+    answer = (4.00 / 3.000) * Math::PI * radius**3
+    return answer.round(2)
   end
