@@ -75,5 +75,5 @@ def number_to_full_month_name(num)
   end
 
   def fahrenheit_to_celsius(farenheit)
-    return (farenheit - 32)* 5 / 9
+    return (farenheit - 32)* 5 / 9.to_f
   end
