@@ -60,31 +60,7 @@ def number_to_full_month_name(num)
   end
 
     def number_to_short_month_name(num)
-      case num
-        when 1
-          return "Jan"
-        when 2
-          return "Feb"
-        when 3
-          return "Mar"
-        when 4
-          return "Apr"
-        when 5
-          return "May"
-        when 6
-          return "Jun"
-        when 7
-          return "Jul"
-        when 8
-          return "Aug"
-        when 9
-          return "Sep"
-        when 10
-          return "Oct"
-        when 11
-          return "Nov"
-        when 12
-          return "Dec"
+    return number_to_full_name_month(num).slice(0,3)
         end
 
   end
